@@ -247,7 +247,9 @@ label{
     flex-direction: column;
 
 }
-
+.about-f div h1{
+    margin-top: -4vh;
+}
 .list{
     display: none;
 }

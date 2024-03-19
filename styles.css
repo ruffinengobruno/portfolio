@@ -1,0 +1,395 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;;
+}
+#icon.yo{
+    display: none;
+}
+.list-desp{
+    display: none;
+}
+h1{
+    font-family: "Gravitas One", serif;
+    font-size: 4em;
+    text-shadow: -5px 0px 0px #ff7700;
+    margin-bottom: 3%;
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color:#004777;
+    height: 300vh;
+}
+.ev{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+#about-f{
+    background-color: #EFD28D;
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    height: 31%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.sect{
+    width: 40%;
+}
+#text{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    margin: auto;
+}
+#fotito{
+    width: 100%;
+    margin-top: -5em;
+}
+#imagenes{
+    width: 55%;
+    margin: auto;
+}
+.list{
+    width: 100%;
+    background: #004777;
+    position: fixed;
+    z-index: 100;
+    height: 4vh;
+}
+.list nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    text-align: right;
+    overflow: none;
+    width: 65vh;
+    margin: auto;
+    margin-left: -1%;
+} 
+nav{
+    float: right;
+} 
+li{
+    float: right;
+    text-decoration: none;
+    list-style: none;
+}
+#proyects-s{
+    background-color: #EFD28D;
+    width: 95%;
+    height: 31%;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+#box-proy{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    background: #00afb5;
+    background-blend-mode: darken;
+    background-position: center center;
+    border-radius: 100%;
+    height: 100%;
+    margin-right: 2%;
+}
+#izq{
+    width: 40%;
+    margin-right: 3vh;
+}
+#der{
+    width: 40%;
+    margin-left: 3vh;
+}
+#proy-a{
+    display: block;
+    text-decoration: none;
+    color: transparent;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    transition: background-color 0.9s;
+}
+#proy-a:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.700);
+    color: white;
+    font-weight: 600;
+}
+.proy{
+    height: 22vh;
+    width: 90%;
+    border: 10px solid #a30000; 
+    background: #ff7700;
+}
+#uno{
+    margin-bottom: 5vh;
+    background-image: url(calculadora.png);
+    background-size: cover;
+}
+#dos{
+    margin-bottom: 5vh;
+}
+#cuatro{
+    margin-bottom: 5vh;
+}
+#cinco{
+    margin-bottom: 5vh;
+}
+#contact{
+    background-color: #EFD28D;
+    width: 95%;
+    height: 31%;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 30%;
+}
+.boton{
+    width: 100%;
+    height: 4vh;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 60px;
+    border: none;
+    background: #00afb5;
+    background-blend-mode: darken;
+    padding-left: 5px;
+    padding-right: 5px;
+    outline: none;
+}
+#boton{
+    width: 40%;
+    height: 7vh;
+    background-color: #a3000055;
+    border-radius: 60px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: "Gravitas One", serif;;
+    
+}
+.ay{
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #EFD28D;
+    transition: color 0.4s;
+    text-decoration: none;
+}
+.ay:hover{
+    color: #00afb5;
+    text-shadow: -2px 0px 0px #a30000;
+}
+p{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+label{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+#github{
+    color: black;
+}
+#icon-yo{
+    display: none;
+}
+#myjob{
+    position: relative;
+    left: -2vh;
+    width: 56vh;
+    height: 100%;
+}
+#iconsito{
+    position: relative;
+    bottom: 10vh;
+    width: 48vh;
+    height: 100%;
+}
+
+@media screen and (max-width: 700px){
+
+#about-f{
+    height: 94vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.list{
+    display: none;
+}
+h1{
+    font-size: 3.5em;
+}
+#jiji{
+    display: none;
+}
+
+.sect{
+    width: 95%;
+} 
+#imagenes{
+    margin-bottom: -3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#text{
+    width: calc(100% - 5em);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 45px);
+}
+#texto-uno{
+    width: calc(100% - 55px);
+}
+#box-proy{
+    display: block;
+}
+.list-desp{
+    display: block;
+    width: 100%;
+    background: #004777;
+    position: fixed;
+    z-index: 100;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu{
+    position: fixed;
+    text-align: right;
+    margin: none;
+}
+.list-desp nav{
+    width: 95%;
+    height: 4vh;
+    position: fixed;
+    padding: 0;
+    overflow: none;
+}
+#menu-desp{
+    display: none;
+    transition: all 0.5s;
+    position: absolute;
+    width: 100vh;
+    text-align: left;
+    margin-top: -2px;
+}
+.menu{
+
+    list-style: none;
+}
+#menu:hover > ul{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    background: #004777;
+    height: max-content;
+}
+#desp{
+    margin-bottom: none;
+}
+#texto-uno p{
+    font-size: calc(9vh - 45px);
+}
+#proyects-s{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#uno{
+    display: block;
+    width: 100%;
+    background-position-x: center;
+}
+#der{
+    display: none;
+}
+#dos{
+    display: none;
+}
+#tres{
+    display: none;
+}
+#box-proy{
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: none;
+    
+}
+#texto-dos{
+    height: 100%;
+    width: 75%;
+    background-image: url(circ.png);
+    background-repeat: no-repeat;
+    background-size:70%;
+    background-position: center center;
+}
+#titulo-dos {
+    margin-top: 10%;
+}
+.form{
+    width: 60%;
+}
+p{
+    font-size: 1.1em;
+}
+#theg{
+    display: none;
+}
+#icon{
+    display: none;
+}
+#icon-yo{
+    display: block;
+    width: 8em;
+    height: 100%;
+    margin: none;
+    border: none;
+}
+#fotito{
+    display: none;
+}
+}

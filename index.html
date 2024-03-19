@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>portfolio</title>
+</head>
+<body>
+
+    <!-- menu común :3 -->
+    <div class="list">
+        <nav>
+            <ul>
+                <li><a class="ay" href="#about-f">Sobre mí</a></li>
+                <li><a class="ay" href="#proyects-s">Proyectos</a></li>
+                <li><a class="ay" href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- menu desplegable !! -->
+    <div class="list-desp">
+        <nav>
+            <ul class="menu">
+                <li id="menu"><a id="desp" class="ay" href="#"> Menú</a>
+                    <ul id="menu-desp">
+                        <li><a class="ay" href="#about-f">Sobre mí</a></li>
+                        <li><a class="ay" href="#proyects-s">Proyectos</a></li>
+                        <li><a class="ay" href="#contact">Contacto</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+<div class="ev">
+    <div id="about-f">
+
+        <div class="sect" id="imagenes">
+                <img id="fotito" src="head.png" alt="jiji">
+                <img src="iconito.png" alt="ooo" id="icon-yo">
+            </div>
+
+            <div class="sect" id="text">
+                <h1 id="title-text">Portfolio</h1>
+                <p id="texto-uno">¡Hola! Me llamo Bruno, me gusta especialmente el ambient pop y el trash metal, me gustan mucho las películas de Almodóvar y cada vez que puedo veo algún documental. <br /> Llevo aprendiendo lenguajes de programación orientado al Front-End desde hace dos años. Con lo aprendido, diseñé este humilde portfolio con muestras de lo aprendido. Espero le guste. ૮ ˶ᵔ ᵕ ᵔ˶ ა
+                </p>
+            </div>
+
+    </div>
+
+    <div id="proyects-s">
+
+        <div class="sect" id="text">
+            <h1 id="titulo-dos">Proyectos</h1>
+            <p id="texto-dos">En este apartado podrás entrar entrar a ver tanto la página web como su código, mediante <a id="github" href="https://github.com/ruffinengobruno" target="_blank" rel="noopener noreferrer">Github.</a><br /> Cada web está diseñada con una base en HTML y CSS, a veces con JavaScript, otras veces con PHP. <br /> Próximamente, también habrán dibujos y fotos varias.</p>
+        </div>
+
+        <div class="sect" id="box-proy">
+
+         <div id="izq">
+
+             <div class="proy" id="uno">
+                <a id="proy-a" href="https://ruffinengobruno.github.io/practicas/" target="_blank" rel="noopener noreferrer">Calculadora</a>
+            </div>
+            <div class="proy" id="dos">
+                <a id="proy-a" href="">Todavía no hay nada :C<img src="" alt=""></a>
+            </div>
+            <div class="proy" id="tres">
+                <a id="proy-a" href="">Todavía no hay nada :C<img src="" alt=""></a>
+            </div>
+
+         </div>
+         <div id="der">
+
+            <div class="proy" id="cuatro">
+                <a id="proy-a" href="">Todavía no hay nada :C<img src="" alt=""></a>
+            </div>
+            <div class="proy" id="cinco">
+                <a id="proy-a" href="">Todavía no hay nada :C<img src="" alt=""></a>
+            </div>
+            <div class="proy" id="seis">
+                <a id="proy-a" href="">Todavía no hay nada :C<img src="" alt=""></a>
+            </div>
+
+         </div>
+
+        </div>
+
+    </div>
+<div id="contact">
+    <div id="theg"> 
+        <img src="thegarden.png" alt="u.u" id="myjob">
+    </div>
+    <div class="form">
+        <div id="titulo">
+            <h1>Contacto</h1>
+        </div>
+        <form action="/form" method="post">
+        <label for="text">Nombre</label>
+        <input class="boton" type="text" id="name" maxlength="20" size="20">
+        <label for="text">Apellido</label>
+        <input class="boton" type="text" id="sname" maxlength="25">
+        <label for="text"> Correo electrónico</label>
+        <input class="boton" type="email" id="mail" maxlength="25">
+        <label for="text">Comentario (hasta 150 caracteres)</label>
+        <textarea class="boton" type="text" id="mensaje" maxlength="150" cols="10" 
+        rows="5" style="padding: 15px; height: 5rem; border-radius: 45px;"></textarea>
+
+        <button type="submit" id="boton">Enviar</button>
+</form>
+</div>
+<div id="icon">
+    <img src="iconverde.png" alt="ee" id="iconsito">
+</div>
+    
+</div>
+</div>
+</body>
+</html>
